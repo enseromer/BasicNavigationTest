@@ -63,6 +63,7 @@ public class NavigationTests {
 
         StringUtility.verifyEquals(t1, driver.getTitle());
 
+
         driver.navigate().forward();
         StringUtility.verifyEquals(t2, driver.getTitle());
 
